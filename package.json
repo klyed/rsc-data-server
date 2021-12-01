@@ -4,10 +4,10 @@
   "description": "manage rsc-server worlds, player persistence, friends, etc.",
   "main": "./src/server.js",
   "bin": {
-    "rsc-data-server": "./src/bin.js"
+    "rsc-data-server": "node ./src/bin.js"
   },
   "scripts": {
-    "start": "./src/bin.js -v debug | garnish"
+    "start": "node ./src/bin.js -v debug | garnish"
   },
   "author": "2003Scape Team",
   "license": "AGPL-3.0+",
