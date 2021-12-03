@@ -1,5 +1,5 @@
 {
-  "name": "@2003scape/rsc-data-server",
+  "name": "@rsc2003/rsc-data-server",
   "version": "1.0.0",
   "description": "manage rsc-server worlds, player persistence, friends, etc.",
   "main": "./src/server.js",
@@ -9,11 +9,11 @@
   "scripts": {
     "start": "./src/bin.js -v debug | garnish"
   },
-  "author": "2003Scape Team",
+  "author": "rsc2003 Team",
   "license": "AGPL-3.0+",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "better-sqlite3": "^7.1.1",
+    "better-sqlite3": "^7.4.5",
     "bole": "^4.0.0",
     "camelcase-keys": "^6.2.2",
     "json-socket": "^0.3.0",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/2003scape/rsc-data-server.git"
+    "url": "git+https://github.com/rsc2003/rsc-data-server.git"
   },
   "keywords": [
     "runescape",
@@ -38,7 +38,7 @@
     "loginserver"
   ],
   "bugs": {
-    "url": "https://github.com/2003scape/rsc-data-server/issues"
+    "url": "https://github.com/rsc2003/rsc-data-server/issues"
   },
-  "homepage": "https://github.com/2003scape/rsc-data-server#readme"
+  "homepage": "https://github.com/rsc2003/rsc-data-server#readme"
 }
