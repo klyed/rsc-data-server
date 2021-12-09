@@ -407,10 +407,10 @@ class QueryHandler {
         return pages;
     }
 
-    getHiscoreRanks(skill = 'overall', rank = -1, page = 0) {
+    getHiscoreRanks(skill = 'overall', rank = 0, page = 0) {
         let ranks;
 
-        if (rank > -1) {
+        if (rank > 0) {
             rank = rank < 1 ? 1 : rank;
 
             const min = Math.max(1, rank - RANKS_PER_PAGE / 2);

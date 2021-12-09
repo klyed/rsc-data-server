@@ -4,7 +4,7 @@ skills.add('overall');
 async function getHiscoreRanks({
     token,
     skill = 'overall',
-    rank = -1,
+    rank = 0,
     page = 0
 }) {
     if (!skills.has(skill)) {

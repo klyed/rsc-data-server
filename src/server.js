@@ -7,10 +7,10 @@ const net = require('net');
 const log = require('bole')('server');
 
 // 3 hours
-const HISCORE_FREQUENCY = 1000 * 60 * 60 * 3;
+const HISCORE_FREQUENCY = 1.08e+7;
 
 // 10 minutes
-const THROTTLE_CLEAR_FREQUENCY = 1000 * 60 * 10;
+const THROTTLE_CLEAR_FREQUENCY = 6e+5;
 
 class Server {
     constructor(config) {

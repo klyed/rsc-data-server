@@ -91,7 +91,7 @@ CREATE TABLE IF NOT EXISTS `players` (
     `friends` json default '[]',
     `ignores` json default '[]',
     `inventory` json default '[]',
-    `bank` json default '[]',
+    `bank` json default '[]', /*Original was "json"*/
     `creation_ip` varchar(45),
     `creation_date` datetime default (strftime('%s', 'now')),
     `login_ip` varchar(45),

@@ -19,7 +19,7 @@ const PLAYER_BOOLEAN_PROPERTIES = [
 async function throttleAttempt(queryHandler, ip) {
     let { attempts, lastDate } = queryHandler.getLoginAttempts(ip);
 
-    if (attempts >= 5) {
+    if (attempts >= 10) {
         if (Date.now() - lastDate >= 1000 * 60 * 5) {
             return attempts;
         } else {
